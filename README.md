@@ -16,8 +16,9 @@ Es verwendet die `mastodon.py` Bibliothek, um auf die Mastodon API zuzugreifen u
 
 2. Erstelle eine virtuelle Umgebung (optional, aber empfohlen):
    ```
-   python -m venv venv
-   source venv/bin/activate  # Für Windows: venv\Scripts\activate
+   python -m venv reposter
+   source reposter/bin/activate
+   # Für Windows: venv\Scripts\activate
    ```
 
 3. Installiere die Abhängigkeiten:
@@ -29,7 +30,7 @@ Es verwendet die `mastodon.py` Bibliothek, um auf die Mastodon API zuzugreifen u
    ```
    MASTODON_URL=https://social.xboxdev.com
    ACCESS_TOKEN={secret Access Token}
-   ACCOUNTS="@xboxdev@toad.social", "@Official_GDC@peoplemaking.games", "@unrealengine@noc.social ","@xboxgamepass@mastodon.social","@Xbox@mastodon.social","@XboxDevMastodon@social.xboxdev.com"
+   ACCOUNTS="@xboxdev@toad.social", "@Official_GDC@peoplemaking.games", "@unrealengine@noc.social ","@xboxgamepass@mastodon.social","@Xbox@mastodon.social","@XboxDevMastodon@social.xboxdev.com", "@MyXboxTrailer@social.xboxdev.com"
    ```
 
 ## Verwendung
