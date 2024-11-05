@@ -28,8 +28,8 @@ Es verwendet die `mastodon.py` Bibliothek, um auf die Mastodon API zuzugreifen u
 4. Erstelle eine `.env` Datei (optional), um Zugangsdaten sicher zu speichern.
    ```
    MASTODON_URL=https://social.xboxdev.com
-   ACCESS_TOKEN=zamUreZ5FLbMpg3mJ3Ng6RGYxnFkZLS45n4ZzVNro7A
-   ACCOUNTS="@xboxdev@toad.social,@example1@mastodon.social,@example2@mastodon.social"
+   ACCESS_TOKEN={secret Access Token}
+   ACCOUNTS="@xboxdev@toad.social", "@Official_GDC@peoplemaking.games", "@unrealengine@noc.social ","@xboxgamepass@mastodon.social","@Xbox@mastodon.social","@XboxDevMastodon@social.xboxdev.com"
    ```
 
 ## Verwendung
